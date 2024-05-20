@@ -23,9 +23,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9DevintaUzduotis_Temperatur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10DesimtaUzduotis_MaksimaliosMinimaliosReiksmesRadimas", "10DesimtaUzduotis_MaksimaliosMinimaliosReiksmesRadimas\10DesimtaUzduotis_MaksimaliosMinimaliosReiksmesRadimas.csproj", "{A0DA584B-F0D2-4544-84A2-44EF9A0A0912}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11VienuoliktaUzduotis_SkaiciuFiltravimas_DaugiauNeiVidurkis", "11VienuoliktaUzduotis_SkaiciuFiltravimas_DaugiauNeiVidurkis\11VienuoliktaUzduotis_SkaiciuFiltravimas_DaugiauNeiVidurkis.csproj", "{E3423B55-A300-45DD-AD84-93AED7A47E2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11VienuoliktaUzduotis_SkaiciuFiltravimas_DaugiauNeiVidurkis", "11VienuoliktaUzduotis_SkaiciuFiltravimas_DaugiauNeiVidurkis\11VienuoliktaUzduotis_SkaiciuFiltravimas_DaugiauNeiVidurkis.csproj", "{E3423B55-A300-45DD-AD84-93AED7A47E2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12DvyliktaUzduotis_PasikartojimoPaieska", "12DvyliktaUzduotis_PasikartojimoPaieska\12DvyliktaUzduotis_PasikartojimoPaieska.csproj", "{75792D8B-B3B3-420A-8D72-FF6B04E6A7EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12DvyliktaUzduotis_PasikartojimoPaieska", "12DvyliktaUzduotis_PasikartojimoPaieska\12DvyliktaUzduotis_PasikartojimoPaieska.csproj", "{75792D8B-B3B3-420A-8D72-FF6B04E6A7EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13TryliktaUzduotis_AugaluMasyvoManipuliacija", "13TryliktaUzduotis_AugaluMasyvoManipuliacija\13TryliktaUzduotis_AugaluMasyvoManipuliacija.csproj", "{0E895906-A58E-474D-8673-31C61AC0DBAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14KeturioliktaUzduotis_SkaiciuMasyvoManipuliacija", "14KeturioliktaUzduotis_SkaiciuMasyvoManipuliacija\14KeturioliktaUzduotis_SkaiciuMasyvoManipuliacija.csproj", "{567AF000-B74F-48F7-9B40-4C400ADBB33C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15PenkioliktaUzduotis_KvadratasIsZvaigzduciu", "15PenkioliktaUzduotis_KvadratasIsZvaigzduciu\15PenkioliktaUzduotis_KvadratasIsZvaigzduciu.csproj", "{26EA1EAD-2E36-44D7-9CBA-B3BD0EB17C2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +87,18 @@ Global
 		{75792D8B-B3B3-420A-8D72-FF6B04E6A7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75792D8B-B3B3-420A-8D72-FF6B04E6A7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75792D8B-B3B3-420A-8D72-FF6B04E6A7EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E895906-A58E-474D-8673-31C61AC0DBAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E895906-A58E-474D-8673-31C61AC0DBAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E895906-A58E-474D-8673-31C61AC0DBAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E895906-A58E-474D-8673-31C61AC0DBAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567AF000-B74F-48F7-9B40-4C400ADBB33C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567AF000-B74F-48F7-9B40-4C400ADBB33C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567AF000-B74F-48F7-9B40-4C400ADBB33C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567AF000-B74F-48F7-9B40-4C400ADBB33C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26EA1EAD-2E36-44D7-9CBA-B3BD0EB17C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26EA1EAD-2E36-44D7-9CBA-B3BD0EB17C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26EA1EAD-2E36-44D7-9CBA-B3BD0EB17C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26EA1EAD-2E36-44D7-9CBA-B3BD0EB17C2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

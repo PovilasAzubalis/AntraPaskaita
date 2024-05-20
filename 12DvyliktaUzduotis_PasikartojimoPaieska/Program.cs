@@ -1,4 +1,4 @@
-﻿namespace VienuoliktaUzduotis_SkaiciuFiltravimas_DaugiauNeiVidurkis
+﻿namespace DvyliktaUzduotis_PasikartojimoPaieska
 {
         public class Program
         {
@@ -13,31 +13,23 @@
 
                         Console.WriteLine("Iveskite teksta: ");
 
-                        string ivestis = Console.ReadLine(); 
-                        ivestis.ToLower();
-                        string[] IvestisArr = new string[ivestis.Length];
-                        
-                        for (int i = 0; i < ivestis.Length; i++)
+                        string ivestis = Console.ReadLine();
+                        Console.WriteLine();
+                        ivestis = ivestis.ToLower();
+                        ivestis = ivestis.Replace(" ", string.Empty);
+
+                        // Tikrinimas po viena simboli is ivesties ir naikinant.
+                        while (ivestis.Length > 0)
                         {
-                                IvestisArr[i] = ivestis.Substring(i, 1);
+                                Console.Write($"{ ivestis[0]}:");
+                                int pasikartojamumas = 0;
+                                for (int i = 0; i < ivestis.Length; i++)
+                                {
+                                        if (ivestis[0] == ivestis[i]) pasikartojamumas++;
+                                }
+                                Console.WriteLine(pasikartojamumas);
+                                ivestis = ivestis.Replace(ivestis[0].ToString(), string.Empty);
                         }
-
-
-                        string[] abecele = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p",
-                                "q","r","s","t","u","v","w","x","y","z" };
-
-                        int[] pasikartojamumas = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                                0, 0, 0, 0, 0, 0};
-
-
-                        for (int i = 0; i < ivestis.Length; i++)
-                        {
-                                if(IvestisArr[i] == abecele    
-                        }
-                        Console.WriteLine($"{IvestisArr.ToString()}");
-                        Console.WriteLine($"{pasikartojamumas}");
-
-
                 }
         }
 }
