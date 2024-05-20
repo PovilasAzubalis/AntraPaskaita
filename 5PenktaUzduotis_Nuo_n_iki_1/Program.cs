@@ -4,6 +4,11 @@
         {
                 public static void Main(string[] args)
                 {
+                        // Parašykite programą naudojant for ciklą, kuri paprašo vartotojo įvesti skaičių
+                        // n ir tada išveda visus skaičius nuo n iki 1 atvirkštine tvarka.
+                        // Kiekvienas skaičius turi būti atskirtas nauja eilute.
+
+
                         string ivestis = Console.ReadLine();
 
                         if (int.TryParse(ivestis, out int n))

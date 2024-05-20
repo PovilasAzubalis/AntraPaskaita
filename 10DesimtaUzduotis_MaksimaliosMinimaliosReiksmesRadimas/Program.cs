@@ -1,16 +1,14 @@
-﻿namespace DevintaUzduotis_TemperaturuVidurkioSkaiciavimas
+﻿namespace DesimtaUzduotis_MaksimaliosMinimaliosReiksmesRadimas
 {
         public class Program
         {
                 public static void Main(string[] args)
                 {
-                        // Parašykite programą, kuri leidžia vartotojui įvesti
-                        // temperatūras kelias dienas.
-                        // Masyvas turi būti naudojamas temperatūroms saugoti.
-                        // Po to, kai visos temperatūros įvestos,
-                        // programa turi naudoti for ciklą, kad apskaičiuotų
-                        // ir išvestų temperatūrų vidurkį.
-
+                        // Sukurkite programą, kuri paprašo vartotojo įvesti skaičių seriją
+                        // į masyvą. Naudokite for ciklą, kad rastumėte didžiausią ir mažiausią
+                        // skaičius masyve. Panaudokite if sąlyginius teiginius, kad
+                        // nustatytumėte, kuris skaičius yra didžiausias, o kuris - mažiausias,
+                        // ir išveskite juos į ekraną.
 
                         Console.WriteLine("Iveskite kiek temperaturu ivedinesite:");
                         int n = 0;

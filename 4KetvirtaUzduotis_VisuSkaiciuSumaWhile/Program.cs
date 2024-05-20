@@ -5,6 +5,12 @@
                 public static void Main(string[] args)
 
                 {
+                        // Parašykite programą, kuri naudoja while ciklą, kad suskaičiuotų
+                        // visų teigiamų skaičių, mažesnių nei nurodytas skaičius n suma.
+                        // Programa turi paprašyti vartotojo įvesti skaičių n ir
+                        // tada išvesti suskaičiuotą sumą.
+
+
                         string ivestis = Console.ReadLine();
 
                         if (int.TryParse(ivestis, out int n))
